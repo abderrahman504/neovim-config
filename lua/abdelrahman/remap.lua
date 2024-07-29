@@ -13,6 +13,12 @@ vim.keymap.set('o', 'j', 'h')
 vim.keymap.set('o', 'h', 'i')
 vim.keymap.set('o', 'H', 'I')
 
+vim.keymap.set('v', 'i', 'k')
+vim.keymap.set('v', 'k', 'j')
+vim.keymap.set('v', 'j', 'h')
+vim.keymap.set('v', 'h', 'i')
+vim.keymap.set('v', 'H', 'I')
+
 
 vim.keymap.set('c', 'Q', 'q')
 vim.keymap.set('n', '<Escape>', vim.cmd.Ex)
