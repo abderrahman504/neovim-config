@@ -38,6 +38,19 @@ vim.keymap.set("v", "<A-S-k>", "yPgv") -- duplicate lines down(v)
 
 
 -- Toggle comments on lines
+-- A table of comment characters for every language I care about
+
+local single_line_comment_table = {
+    c = "//",
+    cpp = "//",
+    cs = "//",
+    java = "//",
+    lua = "--",
+    python = '#',
+    html = '//',
+    js = '//',
+    ts = '//',
+}
 
 
 
